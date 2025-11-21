@@ -2,449 +2,449 @@
 struct LevelData level_data_table[] = {
     /* KARATE_MAN */ {
         /* Entry Scene   */ &scene_karate_man,
-        /* Level Name    */ "Karate Man",
-        /* Level Desc.   */ "The key to karate,\n"
-                            "like all things, is rhythm.\n"
-                            "Now, let us throw some\n"
-                            "stuff for you to punch.",
+        /* Level Name    */ "Carateca",
+        /* Level Desc.   */ "A chave do caratàÆ\n"
+                            "como todas as coisas, áQ o\n"
+                            "ritmo. Agora, vamos lanàπar algumas\n"
+                            "coisas para vocàÆ socar.",
         /* Level Icon    */ 8,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_karate_man_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "There's always tomorrow...",
-            /* OK        */ "Let's break for lunch now!",
-            /* SUPERB    */ "Look at all this stuff I punched away!"
+            /* TRY_AGAIN */ "Sempre hác um amanhàÆ..",
+            /* OK        */ "Vamos fazer uma pausa para o almoàπo agora!",
+            /* SUPERB    */ "Olha sái para todas estas coisas que eu esmurrei!"
         }
     },
     /* KARATE_MAN_2 */ {
         /* Entry Scene   */ &scene_karate_man_2,
-        /* Level Name    */ "Karate Man 2",
-        /* Level Desc.   */ "Something's up with\n"
-                            "the speed! Take care\n"
-                            "as we throw you some\n"
-                            "more stuff to punch.",
+        /* Level Name    */ "Carateca 2",
+        /* Level Desc.   */ "Hác algo de errado\n"
+                            "com a velocidade! Cuidado,\n"
+                            "pois vamos lanàπar-lhe\n"
+                            "mais coisas para socar.",
         /* Level Icon    */ 0,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_karate_man_2_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Who cares about the speed, anyway!",
-            /* OK        */ "Well, that's that. Let's eat!",
-            /* SUPERB    */ "I think we went through everything!"
+            /* TRY_AGAIN */ "Afinal, quem se importa com a velocidade!",
+            /* OK        */ "Bem, áQ isso. Vamos comer!",
+            /* SUPERB    */ "Acho que jác vimos tudo!"
         }
     },
     /* CLAPPY_TRIO */ {
         /* Entry Scene   */ &scene_clappy_trio,
-        /* Level Name    */ "The Clappy Trio",
-        /* Level Desc.   */ "Clap your hands in\n"
-                            "order! You're the third\n"
-                            "clapper. Keep an eye\n"
-							"on the other two!",
+        /* Level Name    */ "Trio Palmada",
+        /* Level Desc.   */ "Bata palmas em\n"
+                            "ordem! VocàÆ áQ o terceiro\n"
+                            "a bater. Fique de olho\n"
+							"nos outros dois!",
         /* Level Icon    */ 4,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_clappy_trio_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "The trio just went solo!",
-            /* OK        */ "You need to make it to more of our practice sessions...",
-            /* SUPERB    */ "Trio-riffic!"
+            /* TRY_AGAIN */ "O trio acabou de se separar!",
+            /* OK        */ "VocàÆprecisa participar mais das nossas sessıes de treino...",
+            /* SUPERB    */ "Tri-áitimo!"
         }
     },
     /* SNAPPY_TRIO */ {
         /* Entry Scene   */ &scene_snappy_trio,
-        /* Level Name    */ "The Snappy Trio",
-        /* Level Desc.   */ "Look at the trio in their\n"
-                            "Western outfits!\n"
-                            "So cool! Dare we say\n"
-                            "they look... snappy?",
+        /* Level Name    */ "Tour Em Trio!",
+        /* Level Desc.   */ "Olhe para o trio com suas\n"
+                            "roupas ocidentais!\n"
+                            "Tà∫o legais! Ousamos dizer\n"
+                            "que eles parecem... elegantes?",
         /* Level Icon    */ 10,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_snappy_trio_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "I spent everything I had on this outfit!",
-            /* OK        */ "We were so close...",
-            /* SUPERB    */ "Perfect sync! It's gotta be the outfits, right?"
+            /* TRY_AGAIN */ "Gastei tudo o que tinha nesta roupa!",
+            /* OK        */ "Estácvamos t„o perto...",
+            /* SUPERB    */ "Sincronia perfeita! Deve ser pelas roupas, certo?"
         }
     },
     /* POLYRHYTHM */ {
         /* Entry Scene   */ &scene_polyrhythm,
-        /* Level Name    */ "Polyrhythm",
-        /* Level Desc.   */ "Manage the áO and áM\n"
-							"paths at the same time\n"
-							"to keep the red things\n"
-							"rolling! Simple enough?",
+        /* Level Name    */ "Polirritmo",
+        /* Level Desc.   */ "Gerencie os caminhos\n"
+							"áO e áM ao mesmo tempo\n"
+							"para manter as coisas vermelhas\n"
+							"rolando! Simples, nà∫o áQ?",
         /* Level Icon    */ 3,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_polyrhythm_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Mass producing these will be harder than I thought...",
-            /* OK        */ "Still getting the hang of making these red things!",
-            /* SUPERB    */ "We've produced more of these than we can stock!"
+            /* TRY_AGAIN */ "Produzir isso em massa serác mais difáecil do que eu pensava...",
+            /* OK        */ "Ainda estou aprendendo a fazer essas coisas vermelhas!",
+            /* SUPERB    */ "Produzimos mais do que podemos armazenar!"
         }
     },
     /* POLYRHYTHM_2 */ {
         /* Entry Scene   */ &scene_polyrhythm_2,
-        /* Level Name    */ "Polyrhythm 2",
-        /* Level Desc.   */ "The left and right paths\n"
-                            "have unique patterns!\n"
-                            "Mind the tempo and\n"
-                            "play to the polyrhythm!",
+        /* Level Name    */ "Polirritmo 2",
+        /* Level Desc.   */ "Os caminhos da esquerda\n"
+                            "e da direita tàÆm padroes à¶nicos!\n"
+                            "Preste atenàπà∫o ao ritmo\n"
+                            " e toque ao polirritmo!",
         /* Level Icon    */ 51,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_polyrhythm_2_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "We need to produce a whole lot more red things...",
-            /* OK        */ "Producing more of these red things woudn't hurt!",
-            /* SUPERB    */ "Red thing production is at an all time high!"
+            /* TRY_AGAIN */ "Precisamos produzir muito mais coisas vermelhas...",
+            /* OK        */ "Produzir mais dessas coisas vermelhas nà∫o faria mal nenhum!",
+            /* SUPERB    */ "A produàπà∫o de coisas vermelhas estác em alta!"
         }
     },
     /* NIGHT_WALK */ {
         /* Entry Scene   */ &scene_night_walk,
-        /* Level Name    */ "Night Walk",
-        /* Level Desc.   */ "What's better than a\n"
-                            "stroll in the starlight?\n"
-                            "How about a series of\n"
-                            "jumps in the starlight?",
+        /* Level Name    */ "Passeio Noturno",
+        /* Level Desc.   */ "O que áQ melhor do que\n"
+                            "um passeio sob a luz das estrelas?\n"
+                            "Que tal uma sáQrie de\n"
+                            "saltos sob a luz das estrelas?",
         /* Level Icon    */ 7,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_night_walk_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Didn't see that hole in the dark!",
-            /* OK        */ "Nothing like a stroll at night.",
-            /* SUPERB    */ "You followed us up here!"
+            /* TRY_AGAIN */ "Nà∫o vi esse buraco no escuro!",
+            /* OK        */ "Nada como um passeio ág noite.",
+            /* SUPERB    */ "VocàÆ nos seguiu atáQ aqui!"
         }
     },
     /* NIGHT_WALK_2 */ {
         /* Entry Scene   */ &scene_night_walk_2,
-        /* Level Name    */ "Night Walk 2",
-        /* Level Desc.   */ "Time to jump in the\n"
-                            "starlight again!\n"
-                            "Keep a look out\n"
-                            "for the electric fish.",
+        /* Level Name    */ "Passeio Noturno 2",
+        /* Level Desc.   */ "Hora de mergulhar na\n"
+                            "luz das estrelas novamente!\n"
+                            "Fique atento\n"
+                            "aos peixes eláQtricos.",
         /* Level Icon    */ 41,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_night_walk_2_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "No! You fell!",
-            /* OK        */ "The night breeze feels so cool...",
-            /* SUPERB    */ "You made friends with the stars!"
+            /* TRY_AGAIN */ "Nà∫o! VocàÆ caiu!",
+            /* OK        */ "A brisa noturna áQ tà∫o fresca...",
+            /* SUPERB    */ "VocàÆ fez amizade com as estrelas!"
         }
     },
     /* RHYTHM_TWEEZERS */ {
         /* Entry Scene   */ &scene_rhythm_tweezers,
-        /* Level Name    */ "Rhythm Tweezers",
+        /* Level Name    */ "Curto e Grosso",
         /* Level Desc.   */ "\n"
-                            "My roots are showing!\n"
-                            "Can you pluck them off?\n",
+                            "Minhas raáezes està∫o aparecendo!\n"
+                            "VocàÆ pode arrancác-las?\n",
         /* Level Icon    */ 14,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_rhythm_tweezers_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "I can't sell these!",
-            /* OK        */ "Wh-why do my vegetables grow hair?",
-            /* SUPERB    */ "So fresh and clean! Even the air tastes delicious!"
+            /* TRY_AGAIN */ "Nà∫o consigo vender isto!",
+            /* OK        */ "Po-por que meus vegetais està∫o crescendo cabelo?",
+            /* SUPERB    */ "Tà∫o fresco e limpo! AtáQ o ar tem um sabor delicioso!"
         }
     },
     /* RHYTHM_TWEEZERS_2 */ {
         /* Entry Scene   */ &scene_rhythm_tweezers_2,
-        /* Level Name    */ "Rhythm Tweezers 2",
-        /* Level Desc.   */ "My roots are\n"
-                            "growing back!\n"
-                            "Please pluck them\n"
-                            "off again!",
+        /* Level Name    */ "Curto e Grosso 2",
+        /* Level Desc.   */ "Minhas raáezes està∫o\n"
+                            "crescendo novamente!\n"
+                            "Por favor, arranque-as\n"
+                            "novamente!",
         /* Level Icon    */ 25,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_rhythm_tweezers_2_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Why do you have to be so hairy!?",
-            /* OK        */ "Why do only our vegetables grow hair, anyway...?",
-            /* SUPERB    */ "How refreshing! Even the air is nice and crisp!"
+            /* TRY_AGAIN */ "Por que vocàÆ tem que ser tà∫o peludo!?",
+            /* OK        */ "Por que sái os nossos vegetais tàÆm pelos, afinal...?",
+            /* SUPERB    */ "Que revigorante! AtáQ o ar estác agradácvel e fresco!"
         }
     },
     /* SICK_BEATS */ {
         /* Entry Scene   */ &scene_sick_beats,
-        /* Level Name    */ "Sick Beats",
-        /* Level Desc.   */ "\0023" "Assistant's memo:\n"
-                            "\"We have an outbreak\n"
-                            "of an unknown virus!\n"
-                            "Help us, Dr. Cutlery!\"",
+        /* Level Name    */ "Ritmo Contagioso",
+        /* Level Desc.   */ "\0023" "Memo do assistente:\n"
+                            "\"Temos um surto\n"
+                            "de um váerus desconhecido!\n"
+                            "Ajude-nos, Dr. Cutlery!\"",
         /* Level Icon    */ 13,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_sick_beats_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "All our research... amounted to nothing...",
-            /* OK        */ "Failure may be the key to success!",
-            /* SUPERB    */ "We've finally found our cure!"
+            /* TRY_AGAIN */ "Todas as nossas pesquisas... nà∫o levaram a nada...",
+            /* OK        */ "O fracasso pode ser a chave para o sucesso!",
+            /* SUPERB    */ "Finalmente encontramos a cura!"
         }
     },
     /* BOUNCY_ROAD */ {
         /* Entry Scene   */ &scene_bouncy_road,
-        /* Level Name    */ "Bouncy Road",
-        /* Level Desc.   */ "See that ball bouncing\n"
-                            "down the road?\n"
-                            "You wouldn't want to\n"
-							"let it fall...would you?",
+        /* Level Name    */ "Pulataforma",
+        /* Level Desc.   */ "VàÆ aquela bola quicando\n"
+                            "na estrada?\n"
+                            "VocàÆ nà∫o gostaria de\n"
+							"deixác-la cair... gostaria?",
         /* Level Icon    */ 12,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_bouncy_road_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Ow! That was hard...",
-            /* OK        */ "Nice combo!",
-            /* SUPERB    */ "Where's the challenge?"
+            /* TRY_AGAIN */ "Ai! Isso foi difáecil...",
+            /* OK        */ "Combo excelente!",
+            /* SUPERB    */ "Onde estác o desafio?"
         }
     },
     /* BOUNCY_ROAD_2 */ {
         /* Entry Scene   */ &scene_bouncy_road_2,
-        /* Level Name    */ "Bouncy Road 2",
-        /* Level Desc.   */ "See that ball bouncing\n"
-                            "down the road?\n"
-                            "It's a rather nice ball,\n"
-                            "so don't let it fall!",
+        /* Level Name    */ "Pulataforma 2",
+        /* Level Desc.   */ "VàÆ aquela bola quicando\n"
+                            "na estrada?\n"
+                            "áQ uma bola muito boa,\n"
+                            "entà∫o nà∫o a deixe cair!",
         /* Level Icon    */ 50,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_bouncy_road_2_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Ow! We failed!",
-            /* OK        */ "We're working our hardest!",
-            /* SUPERB    */ "Easy come, easy go."
+            /* TRY_AGAIN */ "Ai! Falhamos!",
+            /* OK        */ "Estamos nos esforÁando ao m·ximo!",
+            /* SUPERB    */ "Fáccil vem, fáccil vai."
         }
     },
     /* NINJA_BODYGUARD */ {
         /* Entry Scene   */ &scene_ninja_bodyguard,
-        /* Level Name    */ "Ninja Bodyguard",
-        /* Level Desc.   */ "An enemy is attacking\n"
-                            "your lord! Block the\n"
-                            "arrows with your sword\n"
-							"using áO and áM!",
+        /* Level Name    */ "Ninja Guarda-costas",
+        /* Level Desc.   */ "Um inimigo estác atacando\n"
+                            "seu senhor! Bloqueie as\n"
+                            "flechas com sua espada\n"
+							"usando áO e áM!",
         /* Level Icon    */ 5,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_ninja_bodyguard_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "My lord has fainted! Nooooo!",
-            /* OK        */ "I cannot apologize enough, my lord!",
-            /* SUPERB    */ "Not a scratch!"
+            /* TRY_AGAIN */ "Meu senhor desmaiou! Nà∫oooo!",
+            /* OK        */ "Nà∫o tenho palavras para pedir desculpas, meu senhor!",
+            /* SUPERB    */ "Nem um arranhà∫o!"
         }
     },
     /* NINJA_REINCARNATE */ {
         /* Entry Scene   */ &scene_ninja_reincarnate,
-        /* Level Name    */ "Ninja Descendant",
-        /* Level Desc.   */ "You know, my family's\n"
-                            "ancestors came from\n"
-                            "a long lineage of ninjas.\n"
-                            "Cool, right?",
+        /* Level Name    */ "Descendente Ninja",
+        /* Level Desc.   */ "Sabe, os ancestrais\n"
+                            "da minha famáelia vieram de uma\n"
+                            "longa linhagem de ninjas.\n"
+                            "Legal, náQ?",
         /* Level Icon    */ 38,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_ninja_reincarnate_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Don't give up! We're counting on you!",
-            /* OK        */ "You are... strong. Don't give up yet.",
-            /* SUPERB    */ "You have proven your worth! You have our blessing..."
+            /* TRY_AGAIN */ "Nà∫o desista! Contamos com vocàÆ",
+            /* OK        */ "VocàÆ áQ... forte. Nà∫o desista ainda.",
+            /* SUPERB    */ "VocàÆ provou o seu valor! VocàÆ tem a nossa bàÆnàπà∫o..."
         }
     },
     /* SNEAKY_SPIRITS */ {
         /* Entry Scene   */ &scene_sneaky_spirits,
-        /* Level Name    */ "Sneaky Spirits",
-        /* Level Desc.   */ "These spirits aren't\n"
-                            "exactly evil, but they\n"
-                            "ARE mean; they'll laugh\n"
-                            "at you if you miss.",
+        /* Level Name    */ "Espáeritos Zombeteiros",
+        /* Level Desc.   */ "Esses espáeritos nà∫o sà∫o\n"
+                            "exatamente maus, mas eles\n"
+                            "Sà∫O maldosos; eles và∫o rir\n"
+                            "de vocàÆ se vocàÆ errar.",
         /* Level Icon    */ 1,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_sneaky_spirits_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Escaped ghosts are nothing but trouble.",
-            /* OK        */ "This one's not going anywhere!",
-            /* SUPERB    */ "No ghost escapes on your watch!"
+            /* TRY_AGAIN */ "Fantasmas fugitivos sái trazem problemas.",
+            /* OK        */ "Este nà∫o vai a lugar nenhum!",
+            /* SUPERB    */ "Nenhum fantasma foge do seu olhar!"
         }
     },
     /* SNEAKY_SPIRITS_2 */ {
         /* Entry Scene   */ &scene_sneaky_spirits_2,
-        /* Level Name    */ "Sneaky Spirits 2",
-        /* Level Desc.   */ "Those spirits are\n"
-                            "acting up again!\n"
-                            "Let them have it,\n"
-                            "archery style!",
+        /* Level Name    */ "Espáeritos Zombeteiros 2",
+        /* Level Desc.   */ "Esses espáeritos està∫o\n"
+                            "agindo de novo!\n"
+                            "Deixe-os terem o que querem,\n"
+                            "estilo arco e flecha!",
         /* Level Icon    */ 53,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_sneaky_spirits_2_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Gah! They slipped right past you!",
-            /* OK        */ "\"L-Let me go! Please!\"",
-            /* SUPERB    */ "You ghosts stay and think about what you've done!"
+            /* TRY_AGAIN */ "Ah! Eles passaram direto por vocàÆ",
+            /* OK        */ "\"S-Solte-me! Por favor!\"",
+            /* SUPERB    */ "VocàÆs, fantasmas, fiquem aáe e pensem no que fizeram!"
         }
     },
     /* SAMURAI_SLICE */ {
         /* Entry Scene   */ &scene_samurai_slice,
-        /* Level Name    */ "Samurai Slice",
-        /* Level Desc.   */ "Demons have put\n"
-                            "the town in a panic!\n"
-                            "Look out! Samurai--\n"
-                            "slice them allÅI",
+        /* Level Name    */ "Samurai Retalhador",
+        /* Level Desc.   */ "Os demà∂nios colocaram\n"
+                            "a cidade em panico!\n"
+                            "Cuidado! Samurai--\n"
+                            "acabe com todos eles!",
         /* Level Icon    */ 18,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_samurai_slice_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "I've broken my blade!",
-            /* OK        */ "I shall push myself harder!",
-            /* SUPERB    */ "Have you ever seen a sword this sharp?"
+            /* TRY_AGAIN */ "Quebrei minha lamina!",
+            /* OK        */ "Vou me esforàπar ainda mais!",
+            /* SUPERB    */ "VocàÆ jác viu uma espada tà∫o afiada assim?"
         }
     },
     /* SPACEBALL */ {
         /* Entry Scene   */ &scene_spaceball,
-        /* Level Name    */ "Spaceball",
-        /* Level Desc.   */ "Ignore the camera's\n"
-                            "zooms! Make the ball\n"
-                            "zoom away! Don't blink!\n"
-                            "Don't wipe your tears!",
+        /* Level Name    */ "Beisebol Espacial",
+        /* Level Desc.   */ "Ignore os zooms da\n"
+                            "camera! Faàπa a bola\n"
+                            "se afastar! Nà∫o pisque!\n"
+                            "Nà∫o enxugue suas lácgrimas!",
         /* Level Icon    */ 9,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_spaceball_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Can I have my ball back? I'll give you my last rice ball...",
-            /* OK        */ "Must... train... harder...",
-            /* SUPERB    */ "I won first \"space\"!"
+            /* TRY_AGAIN */ "Posso ter minha bola de volta? Eu te dou meu à¶ltimo bolinho de arroz...",
+            /* OK        */ "Preciso... treinar... mais...",
+            /* SUPERB    */ "Eu ganhei o primeiro \"espaàπo\"!"
         }
     },
     /* SPACEBALL_2 */ {
         /* Entry Scene   */ &scene_spaceball_2,
-        /* Level Name    */ "Spaceball 2",
-        /* Level Desc.   */ "Ignore the camera's\n"
-                            "zooms! Just believe\n"
-                            "in yourself and\n"
-                            "send the ball flying!",
+        /* Level Name    */ "Beisebol Espacial 2",
+        /* Level Desc.   */ "Ignore os zooms da\n"
+                            "camera! Apenas acredite\n"
+                            "em si mesmo e\n"
+                            "mande a bola voar!",
         /* Level Icon    */ 52,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_spaceball_2_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Next time, swing your bat somewhere else!",
-            /* OK        */ "I can't give up now!",
-            /* SUPERB    */ "Guys, guys, look at what I've won!"
+            /* TRY_AGAIN */ "Da práixima vez, balance seu taco em outro lugar!",
+            /* OK        */ "Nà∫o posso desistir agora!",
+            /* SUPERB    */ "Gente, gente, vejam o que eu ganhei!"
         }
     },
     /* TAP_TRIAL */ {
         /* Entry Scene   */ &scene_tap_trial,
-        /* Level Name    */ "Tap Trial",
-        /* Level Desc.   */ "You are the girl.\n"
-                            "They are the monkeys.\n"
-                            "Follow them to tap\n"
-                            "stardom!",
+        /* Level Name    */ "Sapateado",
+        /* Level Desc.   */ "VocàÆ áQ a garota.\n"
+                            "Eles sà∫o os macacos.\n"
+                            "Siga-os para alcanàπar o\n"
+                            "estrelato!",
         /* Level Icon    */ 6,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_tap_trial_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Gotta tap out.",
-            /* OK        */ "You were ALMOST as good as a monkey...",
-            /* SUPERB    */ "Tap loves you too, Giraffe!"
+            /* TRY_AGAIN */ "Tenho que desistir.",
+            /* OK        */ "VocàÆ era QUASE tà∫o bom quanto um macaco...",
+            /* SUPERB    */ "Sapatear tambáQm te ama, Girafa.!"
         }
     },
     /* TAP_TRIAL_2 */ {
         /* Entry Scene   */ &scene_tap_trial_2,
-        /* Level Name    */ "Tap Trial 2",
-        /* Level Desc.   */ "The monkeys are \n"
-                            "bringing their A game!\n"
-                            "Can you keep up? Don't\n"
-                            "let them out-tap you!",
+        /* Level Name    */ "Sapateado 2",
+        /* Level Desc.   */ "Os macacos està∫o \n"
+                            "dando o seu melhor!\n"
+                            "VoàÆ consegue acompanhar? Nà∫o\n"
+                            "deixe que eles te ultrapassem!",
         /* Level Icon    */ 11,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_tap_trial_2_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Looks like we tapped TOO hard!",
-            /* OK        */ "Hey... Where'd our rhythm go?",
-            /* SUPERB    */ "Monkeys are the key to tappiness!"
+            /* TRY_AGAIN */ "Parece que sapateamos com muita foràπa!",
+            /* OK        */ "Ei... Para onde foi o nosso ritmo?",
+            /* SUPERB    */ "Os macacos sà∫o a chave para o sapateado!"
         }
     },
     /* MARCHING_ORDERS */ {
         /* Entry Scene   */ &scene_marching_orders,
-        /* Level Name    */ "Marching Orders",
-        /* Level Desc.   */ "Ready, march! Following\n"
-                            "orders as a unit builds\n"
-                            "your camaraderie.\n"
-							"Also, rhythm.",
+        /* Level Name    */ "Marcha Soldado",
+        /* Level Desc.   */ "Prontos, marchar! Seguir\n"
+                            "rdens como uma unidade constráii\n"
+                            "sua camaradagem.\n"
+							"AláQm disso, ritmo.",
         /* Level Icon    */ 21,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_marching_orders_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Wait! You left without us!",
-            /* OK        */ "Today's mission: Cleaning. ",
-            /* SUPERB    */ "Mission success! We rescued the alien!"
+            /* TRY_AGAIN */ "Espere! VocàÆ foi embora sem a gente!",
+            /* OK        */ "Missà∫o de hoje: Limpeza. ",
+            /* SUPERB    */ "Missà∫o cumprida! Resgatamos o alienáegena!"
         }
     },
     /* MARCHING_ORDERS_2 */ {
         /* Entry Scene   */ &scene_marching_orders_2,
-        /* Level Name    */ "Marching Orders 2",
-        /* Level Desc.   */ "Ready, march!\n"
-                            "This mission requires\n"
-                            "finesse and technique,\n"
-                            "so march your best!",
+        /* Level Name    */ "Marcha Soldado 2",
+        /* Level Desc.   */ "Prontos, marchar!\n"
+                            "Esta missà∫o requer\n"
+                            "habilidade e táQcnica,\n"
+                            "entà∫o marchem com o mácximo de vocàÆs!",
         /* Level Icon    */ 20,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_marching_orders_2_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "This is unacceptable...",
-            /* OK        */ "I know we can perform better than that!",
-            /* SUPERB    */ "Now THIS is a reward!"
+            /* TRY_AGAIN */ "Isso áQ inaceitácvel...",
+            /* OK        */ "Sei que podemos fazer melhor do que isso!",
+            /* SUPERB    */ "ISSO sim áQ uma recompensa!"
         }
     },
     /* WIZARDS_WALTZ */ {
         /* Entry Scene   */ &scene_wizards_waltz,
-        /* Level Name    */ "Wizard's Waltz",
-        /* Level Desc.   */ "There's a lonely girl\n"
-                            "over there. Put your\n"
-                            "flower power to good\n"
-                            "use to cheer her up!",
+        /* Level Name    */ "Valsa da Feiticeira",
+        /* Level Desc.   */ "Hác uma menina solitácria\n"
+                            "ali. Use seu\n"
+                            "poder das flores para\n"
+                            "animác-la!",
         /* Level Icon    */ 23,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_wizards_waltz_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "... I'm scared!",
-            /* OK        */ "These will look SO lovely when they bloom!",
-            /* SUPERB    */ "Who could feel lonely with all these flowers?"
+            /* TRY_AGAIN */ "...Estou com medo!",
+            /* OK        */ "Elas ficarà∫o Tà∫O lindas quando florescerem!",
+            /* SUPERB    */ "Quem poderia se sentir solitácrio com todas essas flores?"
         }
     },
     /* BUNNY_HOP */ {
         /* Entry Scene   */ &scene_bunny_hop,
-        /* Level Name    */ "Bunny Hop",
-        /* Level Desc.   */ "This rabbit has an\n"
-                            "impossible goal: to jump\n"
-                            "to the moon! Can you\n"
-                            "make his dream reality?",
+        /* Level Name    */ "Coelho Pula-Pula",
+        /* Level Desc.   */ "Este coelho tem um\n"
+                            "objetivo impossáevel: pular atáQ\n"
+                            "a lua! VocàÆ pode\n"
+                            "tornar o sonho dele realidade?",
         /* Level Icon    */ 24,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_bunny_hop_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "I'm not sure I thought this through...",
-            /* OK        */ "Didn't quite stick the landing...",
-            /* SUPERB    */ "A perfect landing! Who needs rockets?!"
+            /* TRY_AGAIN */ "Nà∫o tenho certeza se pensei bem nisso...",
+            /* OK        */ "Nà∫o conseguiu aterrar bem...",
+            /* SUPERB    */ "Uma aterragem perfeita! Quem precisa de foguetes?!"
         }
     },
     /* FIREWORKS */ {
         /* Entry Scene   */ &scene_fireworks,
-        /* Level Name    */ "Fireworks",
-        /* Level Desc.   */ "It's not summertime\n"
-                            "without fireworks!\n"
-                            "Light them up to fill the\n"
-                            "sky with pretty colors!",
+        /* Level Name    */ "Fogos de ArtifáQcio",
+        /* Level Desc.   */ "Nà∫o áQ verà∫o\n"
+                            "sem fogos de artifáQcio!\n"
+                            "Acenda-os para encher o\n"
+                            "cáQu com lindas cores!",
         /* Level Icon    */ 26,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_fireworks_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Cough, cough... I think I blew it...",
-            /* OK        */ "That wasn't half bad!",
-            /* SUPERB    */ "I am THE go-to fireworks guy!"
+            /* TRY_AGAIN */ "Cof, cof... Acho que estraguei tudo...",
+            /* OK        */ "Nà∫o foi nada tà∫o ruim assim!",
+            /* SUPERB    */ "Eu sou O especialista em fogos de artifáQcio!"
         }
     },
     /* POWER_CALLIGRAPHY */ {
         /* Entry Scene   */ &scene_power_calligraphy,
-        /* Level Name    */ "Power Calligraphy",
-        /* Level Desc.   */ "Japanese calligraphy\n"
-                            "requires grace, finesse,\n"
-                            "and a shocking amount\n"
-                            "of upper body strength.",
+        /* Level Name    */ "Prova de Caligrafia",
+        /* Level Desc.   */ "A caligrafia japonesa\n"
+                            "requer graciosidade, delicadeza,\n"
+                            "e uma foràπa impressionante\n"
+                            "na parte superior do corpo.",
         /* Level Icon    */ 28,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_power_power_calligraphy_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Maybe I should stick with pencils...",
-            /* OK        */ "Precision! Grace! What's not to like?",
-            /* SUPERB    */ "Woo! Calligraphy party!"
+            /* TRY_AGAIN */ "Talvez eu devesse continuar usando lácpis...",
+            /* OK        */ "Precisà∫o! Graàπa! O que hác para nà∫o gostar?",
+            /* SUPERB    */ "Eba! Festa de caligrafia!"
         }
     },
     /* POWER_CALLIGRAPHY_2 */ {
@@ -465,331 +465,331 @@ struct LevelData level_data_table[] = {
     },
     /* TOSS_BOYS */ {
         /* Entry Scene   */ &scene_toss_boys,
-        /* Level Name    */ "Toss Team",
-        /* Level Desc.   */ "This trio of friends love\n"
-                            "practicing volleyball.\n"
-                            "Listen for their names\n"
-                            "as they pass their ball!",
+        /* Level Name    */ "Time do Toque",
+        /* Level Desc.   */ "Este trio de amigos adora\n"
+                            "praticar và∂lei.\n"
+                            "Ouàπa os nomes deles\n"
+                            "enquant passam a bola!",
         /* Level Icon    */ 30,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_toss_boys_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "We've been tossed out!",
-            /* OK        */ "Next time, we'll toss better than the best!",
-            /* SUPERB    */ "Toss World Championship, here we come!"
+            /* TRY_AGAIN */ "Fomos expulsos!",
+            /* OK        */ "Da práixima vez, vamos jogar melhor do que os melhores!",
+            /* SUPERB    */ "Campeonato Mundial de Toque, aqui vamos náis!"
         }
     },
     /* TOSS_BOYS_2 */ {
         /* Entry Scene   */ &scene_toss_boys_2,
-        /* Level Name    */ "Toss Team 2",
-        /* Level Desc.   */ "This trio of friends love\n"
-                            "practicing volleyball.\n"
-                            "Today, they're training\n"
-                            "harder than ever!",
+        /* Level Name    */ "Time do Toque 2",
+        /* Level Desc.   */ "Este trio de amigos adora\n"
+                            "praticar và∂lei.\n"
+                            "Hoje, eles està∫o treinando\n"
+                            "mais do que nunca!",
         /* Level Icon    */ 29,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_toss_boys_2_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Our spirits have been deflated...",
-            /* OK        */ "We still have a long way to go!",
-            /* SUPERB    */ "Three cheers for our star tossers!"
+            /* TRY_AGAIN */ "Nosso animo estác abatido...",
+            /* OK        */ "Ainda temos um longo caminho a percorrer!",
+            /* SUPERB    */ "TràÆs vivas para os nossos lanàπadores estrela!"
         }
     },
     /* RAT_RACE */ {
         /* Entry Scene   */ &scene_rat_race,
-        /* Level Name    */ "Rat Race",
-        /* Level Desc.   */ "You are a rat. She is\n"
-                            "a cat. You love cheese.\n"
-                            "All the ingredients of a\n"
-                            "tense encounter.",
+        /* Level Name    */ "Corrida dos Ratos",
+        /* Level Desc.   */ "VocàÆ áQ um rato. Ela áQ\n"
+                            "uma gata. VocàÆ adora queijo.\n"
+                            "Todos os ingredientes de um\n"
+                            "encontro tenso.",
         /* Level Icon    */ 31,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_rat_race_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "I guess we could try to eat the plate...",
-            /* OK        */ "You know, I really like cheese. Like, a LOT.",
-            /* SUPERB    */ "We'll have to start a family to eat all this!"
+            /* TRY_AGAIN */ "Acho que poderáeamos tentar comer o prato...",
+            /* OK        */ "Sabe, eu gosto muito de queijo. Tipo, MUITO mesmo.",
+            /* SUPERB    */ "Vamos ter que comeàπar uma famáelia para comer tudo isso!"
         }
     },
     /* TRAM_PAULINE */ {
         /* Entry Scene   */ &scene_tram_pauline,
         /* Level Name    */ "Tram & Pauline",
-        /* Level Desc.   */ "Gather round, one and\n"
-                            "all! Tram and Pauline's\n"
-                            "acrobatic fox show\n"
-							"is about to begin!",
+        /* Level Desc.   */ "Reà¶nam-se, todos!\n"
+                            "O espetácculo acrobáctico de raposas\n"
+                            "de Tram e Pauline\n"
+							"estác prestes a comeàπar!",
         /* Level Icon    */ 32,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_tram_pauline_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "We've transformed the show into a failure!",
-            /* OK        */ "At least we only half messed up the show...",
-            /* SUPERB    */ "We're the perfect duo!"
+            /* TRY_AGAIN */ "Transformamos o espetácculo em um fracasso!",
+            /* OK        */ "Pelo menos sác estragamos parcialmente o espetácculo...",
+            /* SUPERB    */ "Somos a dupla perfeita!"
         }
     },
     /* SHOWTIME */ {
         /* Entry Scene   */ &scene_showtime,
-        /* Level Name    */ "Showtime",
-        /* Level Desc.   */ "It's showtime!\n"
-                            "Our plucky penguins\n"
-                            "are ready to start\n"
-                            "their routine!",
+        /* Level Name    */ "Hora do Show",
+        /* Level Desc.   */ "áP hora do show!\n"
+                            "Nossos corajosos pinguins\n"
+                            "està∫o prontos para comeàπar\n"
+                            "sua apresentaàπà∫o!",
         /* Level Icon    */ 36,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_showtime_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "We've betrayed our audience...",
-            /* OK        */ "I know we're capable of more than this...",
-            /* SUPERB    */ "They loved us out there!"
+            /* TRY_AGAIN */ "Náis traáemos nosso pà¶blico...",
+            /* OK        */ "Sei que somos capazes de mais do que isto...",
+            /* SUPERB    */ "Eles nos adoraram lác fora!"
         }
     },
     /* SPACE_DANCE */ {
         /* Entry Scene   */ &scene_space_dance,
-        /* Level Name    */ "Space Dance",
-        /* Level Desc.   */ "You want a dancing\n"
-                            "challenge? Try dancing\n"
-                            "in zero gravity!\n"
-							"IN SPAAAAAAAAAACE!",
+        /* Level Name    */ "Danàπa Espacial",
+        /* Level Desc.   */ "VocàÆ quer um desafio\n"
+                            "de danàπa? Tente danàπar\n"
+                            "em gravidade zero!\n"
+							"NO ESPAAAAAAAAAAàπO!",
         /* Level Icon    */ 40,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_space_dance_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Our despair has lead us into a black hole!",
-            /* OK        */ "Let us aim for the stars!",
-            /* SUPERB    */ "We are space superstars!"
+            /* TRY_AGAIN */ "Nosso desespero nos levou a um buraco negro!",
+            /* OK        */ "Vamos almejar as estrelas!",
+            /* SUPERB    */ "Somos superestrelas espaciais!"
         }
     },
     /* COSMIC_DANCE */ {
         /* Entry Scene   */ &scene_cosmic_dance,
-        /* Level Name    */ "Cosmic Dance",
-        /* Level Desc.   */ "These paragons of\n"
-                            "dancing have mastered\n"
-                            "their Zero-G moves\n"
-                            "and want to show off!",
+        /* Level Name    */ "Danàπa Cáismica",
+        /* Level Desc.   */ "Esses exemplos de\n"
+                            "danàπa dominaram\n"
+                            "seus movimentos Zero-G\n"
+                            "e querem se exibir!",
         /* Level Icon    */ 16,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_cosmic_dance_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "We cannot go on like THIS!",
-            /* OK        */ "Is that the best you guys can do?",
-            /* SUPERB    */ "We are cosmic superstars!"
+            /* TRY_AGAIN */ "Nà∫o podemos continuar ASSIM!",
+            /* OK        */ "áP o melhor que vocàÆs conseguem fazer?",
+            /* SUPERB    */ "Somos superestrelas cáismicas!"
         }
     },
     /* RAP_MEN */ {
         /* Entry Scene   */ &scene_rap_men,
-        /* Level Name    */ "RAPMEN",
-        /* Level Desc.   */ "The coolest rapping\n"
-                            "duo has arrived! Their\n"
-                            "hot rapping skills are\n"
-                            "the talk of the town!",
+        /* Level Name    */ "RAPMANOS",
+        /* Level Desc.   */ "A dupla de rappers\n"
+                            "mais legal chegou! Suas\n"
+                            "habilidades incráeveis no\n"
+                            "rap sà∫o o assunto da cidade!",
         /* Level Icon    */ 42,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_rap_men_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "We need more practice...",
-            /* OK        */ "I think our tone was off.",
-            /* SUPERB    */ "We're looking forward to hearing you again!"
+            /* TRY_AGAIN */ "Precisamos praticar mais...",
+            /* OK        */ "Acho que nosso tom estava errado.",
+            /* SUPERB    */ "Estamos ansiosos para ouvir vocàÆ novamente!"
         }
     },
     /* RAP_WOMEN */ {
         /* Entry Scene   */ &scene_rap_women,
-        /* Level Name    */ "RAPWOMEN",
-        /* Level Desc.   */ "The RAPMEN have\n"
-                            "some new rivals!\n"
-                            "Don't be distracted\n"
-                            "by their cute voices!",
+        /* Level Name    */ "RAPMANAS",
+        /* Level Desc.   */ "Os RAPMANOS tàÆm\n"
+                            "novas rivais!\n"
+                            "Nà∫o se distraiam\n"
+                            "com as vozes fofas delas!",
         /* Level Icon    */ 15,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_rap_women_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "No... This isn't right.",
-            /* OK        */ "I know we can rap better than this!",
-            /* SUPERB    */ "Yes, yes, YES! We've got it!"
+            /* TRY_AGAIN */ "Nà∫o... Isso nà∫o estác certo.",
+            /* OK        */ "Eu sei que podemos fazer rap melhor do que isso!",
+            /* SUPERB    */ "Sim, sim, SIM! Conseguimos!"
         }
     },
     /* QUIZ_SHOW */ {
         /* Entry Scene   */ &scene_quiz_show,
-        /* Level Name    */ "Quiz Show",
-        /* Level Desc.   */ "Play a quiz where you\n"
-                            "copy the host's pattern.\n"
-                            "Seems simple, right?\n"
-                            "Simple, but not easy.",
+        /* Level Name    */ "Show do Bilhà∫o",
+        /* Level Desc.   */ "Participe de um quiz em que vocàÆ\n"
+                            "copia o padrà∫o do apresentador.\n"
+                            "Parece simples, certo?\n"
+                            "Simples, mas nà∫o áQ fáccil.",
         /* Level Icon    */ 43,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_quiz_show_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "I can do better... I can do better...",
-            /* OK        */ "I have to study... for next time... Zzz...",
-            /* SUPERB    */ "I won the grand prize! A world tour!"
+            /* TRY_AGAIN */ "Eu posso fazer melhor... Eu posso fazer melhor...",
+            /* OK        */ "Tenho que estudar... para a práixima vez... Zzz...",
+            /* SUPERB    */ "Ganhei o grande pràÆmio! Uma viagem ao redor do mundo e um bilhà∫o de reais!"
         }
     },
     /* BON_ODORI */ {
         /* Entry Scene   */ &scene_bon_odori,
-        /* Level Name    */ "TheÅôBon Odori",
-        /* Level Desc.   */ "Let's celebrate the\n"
-                            "Japanese Bon Festival!\n"
-                            "Clap along as they sing\n"
-                            "their traditional song!",
+        /* Level Name    */ "OÅôBon Odori",
+        /* Level Desc.   */ "Vamos celebrar o\n"
+                            "Festival Bon JaponàÆs!\n"
+                            "Bata palmas enquanto elas cantam\n"
+                            "sua canàπà∫o tradicional!",
         /* Level Icon    */ 35,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_bon_odori_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "I feel so cold...",
-            /* OK        */ "Oh... the quaint fizzle of a sparkler...",
-            /* SUPERB    */ "That was so much fun! I can't wait for next year!"
+            /* TRY_AGAIN */ "Sinto tanto frio...",
+            /* OK        */ "Ah... o brilho peculiar de uma faisca...",
+            /* SUPERB    */ "Foi muito divertido! Mal posso esperar pelo práiximo ano!"
         }
     },
     /* BON_DANCE */ {
         /* Entry Scene   */ &scene_bon_dance,
-        /* Level Name    */ "TheÅôBon Dance",
-        /* Level Desc.   */ "The Bon Festival has\n"
-                            "a new, modern look!\n"
-                            "Clap along to the\n"
-                            "groovy tune! Yay!",
+        /* Level Name    */ "AÅôDanàπa Bon",
+        /* Level Desc.   */ "O Festival Bon tem\n"
+                            "um visual novo e moderno!\n"
+                            "Bata palmas ao ritmo da\n"
+                            "mà¶sica animada! Viva!",
         /* Level Icon    */ 17,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_bon_dance_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "It's over...",
-            /* OK        */ "When did it start raining?",
-            /* SUPERB    */ "Our new Bon Dance is a lot of fun!"
+            /* TRY_AGAIN */ "Jác era...",
+            /* OK        */ "Quando comeàπou a chover?",
+            /* SUPERB    */ "A nossa nova Danàπa Bon áQ muito divertida!"
         }
     },
     /* REMIX_1 */ {
         /* Entry Scene   */ &scene_remix_1,
-        /* Level Name    */ "Remix ÇP",
-        /* Level Desc.   */ "Let's test your skills!\n"
-                            "Stage 1's games have\n"
-                            "all been remixed!\n"
-                            "Think you can beat it?",
+        /* Level Name    */ "Remix  ÇP",
+        /* Level Desc.   */ "Vamos testar suas habilidades!\n"
+                            "Os jogos da Fase 1 foram\n"
+                            "todos remixados!\n"
+                            "Acha que consegue vencer?",
         /* Level Icon    */ 22,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix1_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Your performance was like... a cat's snack.",
-            /* OK        */ "Your preformance was like... an ordinary breakfast.",
-            /* SUPERB    */ "Your performance was like... why, a delicious dinner!"
+            /* TRY_AGAIN */ "O seu desempenho foi como... um petisco de gato.",
+            /* OK        */ "O seu desempenho foi como... um cafáP da manhà∫ comum.",
+            /* SUPERB    */ "O seu desempenho foi como... bem, um jantar delicioso!"
         }
     },
     /* REMIX_2 */ {
         /* Entry Scene   */ &scene_remix_2,
-        /* Level Name    */ "Remix ÇQ",
-        /* Level Desc.   */ "Let's test your skills!\n"
-                            "This one's got a lively\n"
-                            "atmosphere perfect\n"
-                            "for dance lessons!",
+        /* Level Name    */ "Remix  ÇQ",
+        /* Level Desc.   */ "Vamos testar suas habilidades!\n"
+                            "Este tem uma atmosfera\n"
+                            "animada perfeita\n"
+                            "para aulas de danàπa!",
         /* Level Icon    */ 27,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix2_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "That was as lively as... playing ball by yourself.",
-            /* OK        */ "That was as lively as... a pleasant game of catch.",
-            /* SUPERB    */ "That was as lively as... a huge baseball tournament!"
+            /* TRY_AGAIN */ "Isso foi tà∫o animado quanto... jogar bola sozinho.",
+            /* OK        */ "Isso foi tà∫o animado quanto... uma agradácvel partida de bola.",
+            /* SUPERB    */ "Isso foi tà∫o animado quanto... um grande torneio de beisebol!"
         }
     },
     /* REMIX_3 */ {
         /* Entry Scene   */ &scene_remix_3,
-        /* Level Name    */ "Remix ÇR",
-        /* Level Desc.   */ "Let's test your skills!\n"
-                            "This one's got an\n"
-                            "adorable love song with\n"
-                            "adorable love lyrics!",
+        /* Level Name    */ "Remix  ÇR",
+        /* Level Desc.   */ "Vamos testar suas habilidades!\n"
+                            "Esta tem uma\n"
+                            "adorácvel canàπà∫o de amor com\n"
+                            "adorácveis letras de amor!",
         /* Level Icon    */ 33,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix3_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Their love ended in... heartbreak...",
-            /* OK        */ "Their love ended in... a good friendship.",
-            /* SUPERB    */ "Their love ended in... a tender marriage!"
+            /* TRY_AGAIN */ "O amor deles terminou em... desgosto...",
+            /* OK        */ "O amor deles terminou em... uma boa amizade.",
+            /* SUPERB    */ "O amor deles terminou em... um casamento terno!"
         }
     },
     /* REMIX_4 */ {
         /* Entry Scene   */ &scene_remix_4,
-        /* Level Name    */ "Remix ÇS",
-        /* Level Desc.   */ "Let's test your skills!\n"
-                            "This one's got a casual,\n"
-                            "easygoing vibe, like a\n"
-                            "nice, pleasant stroll...",
+        /* Level Name    */ "Remix  ÇS",
+        /* Level Desc.   */ "Vamos testar suas habilidades!\n"
+                            "Este tem um clima casual,\n"
+                            "descontraáedo, como um\n"
+                            "passeio agradácvel e tranquilo...",
         /* Level Icon    */ 34,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix4_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Today's forecast... raining buckets.",
-            /* OK        */ "Today's forecast... very cloudy.",
-            /* SUPERB    */ "Today's forecast... clear skies all day!"
+            /* TRY_AGAIN */ "Previsà∫o para hoje... chuva torrencial.",
+            /* OK        */ "Previsà∫o para hoje... muito nublado.",
+            /* SUPERB    */ "Previsà∫o para hoje... cáQu limpo o dia todo!"
         }
     },
     /* REMIX_5 */ {
         /* Entry Scene   */ &scene_remix_5,
-        /* Level Name    */ "Remix ÇT",
-        /* Level Desc.   */ "Let's test your skills!\n"
-                            "This one's got some\n"
-                            "melancholic lyrics.\n"
-                            "Try to keep your cool!",
+        /* Level Name    */ "Remix  ÇT",
+        /* Level Desc.   */ "Vamos testar suas habilidades!\n"
+                            "Esta tem uma\n"
+                            "letra melancáilica.\n"
+                            "Tente manter a calma!",
         /* Level Icon    */ 39,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix5_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "This couple is... in trouble!",
-            /* OK        */ "This couple is... a little nervous...",
-            /* SUPERB    */ "This couple is... living their happy-ever-after!"
+            /* TRY_AGAIN */ "Este casal estác... em apuros!",
+            /* OK        */ "Este casal estác... um pouco nervoso...",
+            /* SUPERB    */ "Este casal estác... vivendo seu final feliz!"
         }
     },
     /* REMIX_6 */ {
         /* Entry Scene   */ &scene_remix_6,
-        /* Level Name    */ "Remix ÇU",
-        /* Level Desc.   */ "Let's test your skills!\n"
-                            "Every game you've\n"
-                            "played is here! Show\n"
-                            "us what you've learned!",
+        /* Level Name    */ "Remix  ÇU",
+        /* Level Desc.   */ "Vamos testar suas habilidades!\n"
+                            "Todos os jogos que vocàÆ\n"
+                            "jogou està∫o aqui! Mostre-nos\n"
+                            "o que vocàÆ aprendeu!",
         /* Level Icon    */ 2,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix6_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Your fish tank is... pretty sparse.",
-            /* OK        */ "Your fish tank is... unique for sure!",
-            /* SUPERB    */ "Your fish tank is... unbelievable!"
+            /* TRY_AGAIN */ "Seu aquácrio estác... bem vazio.",
+            /* OK        */ "Seu aquácrio áQ... à¶nico, com certeza!",
+            /* SUPERB    */ "Seu aquácrio áQ... incráevel!"
         }
     },
     /* REMIX_7 */ {
         /* Entry Scene   */ &scene_remix_7,
-        /* Level Name    */ "Remix ÇV",
-        /* Level Desc.   */ "Let's test your skills!\n"
-                            "A lot of the Remixes\n"
-                            "make a comeback here!\n"
-                            "It's a Remix Remix!",
+        /* Level Name    */ "Remix  ÇV",
+        /* Level Desc.   */ "Vamos testar suas habilidades!\n"
+                            "Muitos dos Remixes\n"
+                            "està∫o de volta aqui!\n"
+                            "áP um Remix Remix!",
         /* Level Icon    */ 19,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix7_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Your Jurassic visit was... terrifying!",
-            /* OK        */ "Your Jurassic visit was... rather tame.",
-            /* SUPERB    */ "Your Jurassic visit was... too much fun!"
+            /* TRY_AGAIN */ "A sua visita ao Jurácssico foi... assustadora!",
+            /* OK        */ "A sua visita ao Jurácssico foi... um tanto sem graàπa.",
+            /* SUPERB    */ "A sua visita ao Jurácssico foi... muito divertida!"
         }
     },
     /* REMIX_8 */ {
         /* Entry Scene   */ &scene_remix_8,
-        /* Level Name    */ "Remix ÇW",
-        /* Level Desc.   */ "Let's test your skills!\n"
-                            "This final remix is a\n"
-                            "real challenge! Show\n"
-                            "us what you've learned!",
+        /* Level Name    */ "Remix  ÇW",
+        /* Level Desc.   */ "Vamos testar suas habilidades!\n"
+                            "Esse à¶ltimo remix áQ um\n"
+                            "verdadeiro desafio! Mostre-nos\n"
+                            "o que vocàÆ aprendeu!",
         /* Level Icon    */ 37,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix8_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Your road trip was... oh boy...",
-            /* OK        */ "Your road trip was... a little long.",
-            /* SUPERB    */ "Your road trip was... absolutely spectacular!"
+            /* TRY_AGAIN */ "Sua viagem foi... nossa...",
+            /* OK        */ "Sua viagem foi... um pouco longa.",
+            /* SUPERB    */ "Sua viagem foi... absolutamente espetacular!"
         }
     },
     /* CAFE */ {
         /* Entry Scene   */ &scene_cafe,
-        /* Level Name    */ "CafáQ Counselling",
-        /* Level Desc.   */ "How are you feeling?\n"
-                            "If something's on your\n"
-                            "mind, feel free to\n"
-                            "come and talk.",
+        /* Level Name    */ "Aconselhamento no CafáQ",
+        /* Level Desc.   */ "Como vocàÆ estác se sentindo?\n"
+                            "Se tiver algo em\n"
+                            "mente, sinta-se ág vontade para\n"
+                            "vir e conversar.",
         /* Level Icon    */ 45,
         /* Level Type    */ LEVEL_TYPE_BONUS,
         /* Epilogue GFX  */ epilogue_cafe_gfx_tables,
@@ -801,11 +801,11 @@ struct LevelData level_data_table[] = {
     },
     /* RHYTHM_TOYS */ {
         /* Entry Scene   */ &scene_toys_menu,
-        /* Level Name    */ "Rhythm Toys",
-        /* Level Desc.   */ "Collect medals to\n"
-                            "play with some\n"
-                            "Rhythm Toys!\n"
-                            "Check them out!",
+        /* Level Name    */ "Brinquedos Ráetmicos",
+        /* Level Desc.   */ "Colete medalhas para\n"
+                            "brincar com alguns\n"
+                            "Brinquedos Ráetmicos!\n"
+                            "Confira!",
         /* Level Icon    */ 46,
         /* Level Type    */ LEVEL_TYPE_BONUS,
         /* Epilogue GFX  */ epilogue_toys_menu_gfx_tables,
@@ -817,11 +817,11 @@ struct LevelData level_data_table[] = {
     },
     /* ENDLESS_GAMES */ {
         /* Entry Scene   */ &scene_endless_menu,
-        /* Level Name    */ "Endless Games",
-        /* Level Desc.   */ "Collect medals to\n"
-                            "unlock special\n"
-                            "Endless Games!\n"
-                            "Check them out!",
+        /* Level Name    */ "Jogos Infinitos",
+        /* Level Desc.   */ "Colete medalhas para\n"
+                            "desbloquear Jogos\n"
+                            "Infinitos especiais!\n"
+                            "Confira!",
         /* Level Icon    */ 47,
         /* Level Type    */ LEVEL_TYPE_BONUS,
         /* Epilogue GFX  */ epilogue_endless_menu_gfx_tables,
@@ -833,11 +833,11 @@ struct LevelData level_data_table[] = {
     },
     /* DRUM_LESSONS */ {
         /* Entry Scene   */ &scene_lessons_menu,
-        /* Level Name    */ "Drum Lessons",
-        /* Level Desc.   */ "Collect medals to take\n"
-                            "some Drum Lessons.\n"
-                            "You could become\n"
-                            "a master drummer!",
+        /* Level Name    */ "Aulas de Bateria",
+        /* Level Desc.   */ "Colete medalhas para ter\n"
+                            "algumas Aulas de Bateria.\n"
+                            "VocàÆ pode se tornar\n"
+                            "um mestre da bateria!",
         /* Level Icon    */ 48,
         /* Level Type    */ LEVEL_TYPE_BONUS,
         /* Epilogue GFX  */ epilogue_lessons_menu_gfx_tables,
@@ -849,11 +849,11 @@ struct LevelData level_data_table[] = {
     },
     /* STAFF_CREDIT */ {
         /* Entry Scene   */ &scene_staff_credit,
-        /* Level Name    */ "Staff Credits",
-        /* Level Desc.   */ "Here's the staff who\n"
-                            "helped develop\n"
-                            "this game. Feel free\n"
-                            "to take a look!",
+        /* Level Name    */ "CráQditos da equipe",
+        /* Level Desc.   */ "Aqui estác a equipe que\n"
+                            "ajudou a desenvolver\n"
+                            "este jogo. Fique ág vontade\n"
+                            "para dar uma olhada!",
         /* Level Icon    */ 49,
         /* Level Type    */ LEVEL_TYPE_BONUS,
         /* Epilogue GFX  */ epilogue_staff_credit_gfx_tables,
@@ -865,18 +865,18 @@ struct LevelData level_data_table[] = {
     },
     /* LIVE_MENU */ {
         /* Entry Scene   */ &scene_drum_live,
-        /* Level Name    */ "Concert",
-        /* Level Desc.   */ "We're hosting a\n"
-                            "concert! We think\n"
-                            "you've got good rhythm,\n"
-                            "so give it a try!",
+        /* Level Name    */ "Show",
+        /* Level Desc.   */ "Estamos organizando um\n"
+                            "show! Achamos que\n"
+                            "vocàÆ tem um bom ritmo,\n"
+                            "entà∫o experimente!",
         /* Level Icon    */ 44,
         /* Level Type    */ LEVEL_TYPE_BONUS,
         /* Epilogue GFX  */ epilogue_drum_live_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "The cleaner says... \"I know you can do it, keep it up!\"",
-            /* OK        */ "The owner says... \"You've got great skills, you know!\"",
-            /* SUPERB    */ "The producer says... \"You should play at our place, too!\""
+            /* TRY_AGAIN */ "O faxineiro diz... \"Eu sei que vocàÆ consegue, continue assim!\"",
+            /* OK        */ "O proprietácrio diz... \"VocàÆ tem um talento incráevel, sabia?\"",
+            /* SUPERB    */ "O produtor diz... \"VocàÆ deveria tocar na nossa casa tambáQm!\""
         }
     }
 };
