@@ -214,7 +214,7 @@ const char *cafe_dialogue_all_perfects_clear[] = {
     /* ------------------------------------------------ */
         "\n"
         "Se vocˆ® chegou tˆºo longe, entˆºo seu\n"
-        "senso de ritmo deve estar rmesmo um\n"
+        "senso de ritmo deve estar mesmo um\n"
         "passo acima do normal!",
     /* ------------------------------------------------ */
         "\n"
@@ -223,7 +223,7 @@ const char *cafe_dialogue_all_perfects_clear[] = {
         "\n",
     /* ------------------------------------------------ */
         "\n"
-        "Nˆºo ‡Q muito, mas abri mais musicas\n"
+        "Nˆºo ‡Q muito, mas abri mais mˆ¦sicas\n"
         "do estudio pra vocˆ®.\n"
         "\n",
     /* ------------------------------------------------ */
