@@ -1,49 +1,49 @@
 
-<img width="1535" height="1370" alt="image" src="https://github.com/user-attachments/assets/ffbfed42-a33c-4206-babf-9cfb250e39e8" />
+<img width="1535" height="1370" alt="image" src="https://github.com/user-attachments/assets/a9e8f441-e436-48ad-b8e2-6c9cf515cd65" />
 
-# Rhythm Heaven Advance:
-This is the newest and latest version of Rhythm Heaven Advance, based on the WIP decompilation of Rhythm Tengoku.
-"Rhythm Heaven Advance" is the brand new and improved translation patch for Rhythm Tengoku, translating all the text and graphics to be as faithful as possible to the original source, while making changes befitting a localization.
-This project (as well as the decompilation itself) **is a Work In Progress!**, meaning its not yet complete, therefore no download link is available.
-However, instruction on how to build the decomp, therefore the project, are available below. And when theres enough of the project done to felicitate a release, a patch dowload will be available.
+# Ritmo de Festa Advance:
+Esta é a versão mais recente e atualizada do Ritmo de Festa Advance, baseada na descompilação WIP do Rhythm Tengoku.
+“Ritmo de Festa Advance” é um fork e patch de tradução para o Rhythm Tengoku em PT-BR, baseado no projeto [Rhythm Heaven Advance](https://github.com/RHAdvance/RhythmHeavenAdvance).
+Este projeto (assim como a própria descompilação) **é um trabalho em andamento!**, o que significa que ainda não está completo e, portanto, não há link para download disponível.
+No entanto, as instruções sobre como construir a descompilação, e portanto o projeto, estão disponíveis abaixo. E quando o projeto estiver suficientemente avançado para ser lançado, um patch estará disponível para download.
 
-For any questions, suggestions, or playtesting builds check out the [Rhythm Heaven Advance discord server](https://discord.gg/8PET8w8PU8)!
-The Advance team is currently looking for proofreading of the translated script!
-So if you know japanese and wanna help out you're more than welcome!
-If you have any Musical or Voice Acting experience, the Advance team is planning on reworking the Japanese audio and songs to be in English, so any help in the regard is welcome aswell!
+Para quaisquer perguntas, sugestões ou testes de jogabilidade, consulte o [servidor Discord do Rhythm Heaven Advance](https://discord.gg/8PET8w8PU8) no canal [Ritmo de Festa Advance](https://discord.com/channels/829444874751180911/1441382641705160758)!
+Eu, Nyoka, estou procurando pessoas para me ajudar com traduções de textos e gráficos.
+Então, se você quer contribuir, será muito mais do que bem-vindo!
+Não estou planejando dublagem, mas qualquer dublagem está bem vinda para entrar no patch!
 
-## Installation
+## Instalação
 
-To install the project, you need access to a Linux terminal. If you are on Windows 10 or 11, you can access a Linux terminal easily by installing **WSL (Windows Subsystem for Linux)**. If you are already on Linux, you can skip to the **Installing Dependencies** section. Otherwise, follow this guide to install WSL:
+Para instalar o projeto, você precisa ter acesso a um terminal Linux. Se você estiver no Windows 10 ou 11, pode acessar um terminal Linux facilmente instalando o **WSL (Windows Subsystem for Linux)**. Se você já estiver no Linux, pode pular para a seção **Instalando dependências**. Caso contrário, siga este guia para instalar o WSL:
 
-#### Installing WSL
+#### Instalando o WSL
 
-To install WSL, first open up either a Command Prompt or Windows PowerShell window as an administrator. Run the command `wsl --install` to automatically install WSL defaulting to the Ubuntu distribution. Once the process finishes, restart your computer to finish the installation.
+Para instalar o WSL, primeiro abra uma janela do Prompt de Comando ou do Windows PowerShell como administrador. Execute o comando `wsl --install` para instalar automaticamente o WSL com a distribuição Ubuntu como padrão. Quando o processo terminar, reinicie o computador para concluir a instalação.
 
-*Note: you will need to have virtualization enabled in your BIOS settings to use WSL, so if you encounter issues, check how to boot into BIOS and enable virtualization for your computer. For any other issues with installation, you can refer to the [official installation guide](https://docs.microsoft.com/en-us/windows/wsl/install).*
+*Observação: você precisará habilitar a virtualização nas configurações da BIOS para usar o WSL. Portanto, se encontrar problemas, verifique como inicializar a BIOS e habilitar a virtualização no seu computador. Para quaisquer outros problemas com a instalação, consulte o [guia de instalação oficial](https://docs.microsoft.com/en-us/windows/wsl/install).*
 <br>
-Once WSL is installed, upon opening it you will be prompted for a username and password. Note that when typing in the password, the characters will not show up, not even as asterisks, so type carefully as you will need to remember your password.
+Depois que o WSL estiver instalado, ao abri-lo, será solicitado que você digite um nome de usuário e uma senha. Observe que, ao digitar a senha, os caracteres não serão exibidos, nem mesmo como asteriscos, portanto, digite com cuidado, pois você precisará lembrar sua senha.
 
-Once you've created a user, you should run two more commands to finish setting up your terminal. First, run `sudo apt update`, and then after this command has finished, run `sudo apt upgrade`. These commands will require you to enter your password. When prompted with `Do you want to continue? [Y/n]`, simply enter `y`. After doing this, WSL should be fully set up and ready to use.
-<br>
-It is also recommended to mount WSL to a drive letter to access your WSL filesystem from Windows more easily. To do this, follow [this guide](https://github.com/HackerN64/HackerSM64/wiki/Mounting-WSL-to-Drive).
+Depois de criar um usuário, você deve executar mais dois comandos para concluir a configuração do seu terminal. Primeiro, execute `sudo apt update` e, depois que esse comando for concluído, execute `sudo apt upgrade`. Esses comandos exigirão que você digite sua senha. Quando for solicitado `Do you want to continue? [Y/n]`, basta digitar `y`. Depois de fazer isso, o WSL estará totalmente configurado e pronto para uso.
+<BR>
+Também é recomendável montar o WSL em uma letra de unidade para acessar seu sistema de arquivos WSL a partir do Windows com mais facilidade. Para fazer isso, siga [este guia](https://github.com/HackerN64/HackerSM64/wiki/Mounting-WSL-to-Drive).
 
-If you are not familiar with the Linux terminal, a helpful command to know is `cd` which will change the current working directory. `cd ~/` will take you to your home directory, where it is recommended to store the repository. Additionally, copy and pasting in the WSL terminal is done through right-clicking instead of Ctrl+C / Ctrl+V, so to paste commands from this guide into your terminal, simply copy them with Ctrl+C, and then right click in your terminal to paste.
+Se você não estiver familiarizado com o terminal Linux, um comando útil a saber é `cd`, que alterará o diretório de trabalho atual. `cd ~/` o levará ao seu diretório home, onde é recomendável armazenar o repositório. Além disso, copiar e colar no terminal WSL é feito clicando com o botão direito do mouse em vez de Ctrl+C / Ctrl+V. Portanto, para colar os comandos deste guia no seu terminal, basta copiá-los com Ctrl+C e clicar com o botão direito do mouse no seu terminal para colar.
 
 
-#### Installing Dependencies
+#### Instalando dependências
 
-To install the required dependencies for the project, first run this command:
+Para instalar as dependências necessárias para o projeto, primeiro execute este comando:
 
 `sudo apt install build-essential binutils-arm-none-eabi git libpng-dev ffmpeg`
 
-After this, you should also run this command:
+Depois disso, você também deve executar este comando:
 
 `sudo ln -s /proc/self/mounts /etc/mtab`
 
-This command can help with issues with WSL when installing devkitPro. It is not always necessary to run, and may throw an error. If it does error, don't worry and just move on to the next step.
+Este comando pode ajudar com problemas com o WSL ao instalar o devkitPro. Nem sempre é necessário executá-lo e pode gerar um erro. Se ocorrer um erro, não se preocupe e simplesmente avance para a próxima etapa.
 
-After this, you will need to install devkitPro. This process is very involved, so just run all these listed commands in this order, entering your password when prompted:
+Depois disso, você precisará instalar o devkitPro. Este processo é muito complexo, então basta executar todos os comandos listados nesta ordem, digitando sua senha quando solicitado:
 
 `wget https://apt.devkitpro.org/install-devkitpro-pacman`
 `chmod +x ./install-devkitpro-pacman`
@@ -54,37 +54,43 @@ After this, you will need to install devkitPro. This process is very involved, s
 `sudo dkp-pacman -Sy`
 `sudo dkp-pacman -S gba-dev`
 
-After running the final command, press enter and then type `y` to finish installing.
+Após executar o comando final, pressione Enter e digite `y` para concluir a instalação.
 
 
-#### Cloning the Repository
+#### Clonando o repositório
 
-Now you are ready to clone the repository. First, navigate to your home directory with `cd ~/` and then run this command:
+Agora você está pronto para clonar o repositório. Primeiro, navegue até o seu diretório home com `cd ~/` e execute este comando:
 
-`git clone https://github.com/RHAdvance/RhythmHeavenAdvance.git rt`
+`git clone https://github.com/TheRC4/RitmoDeFestaAdvance.git rt`
 
-This will clone the repository into a folder named `rt` in your home directory. You can change `rt` to some other name if you wish to name the repository folder something else.
+Isso clonará o repositório em uma pasta chamada `rt` no seu diretório home. Você pode alterar `rt` para outro nome, se desejar nomear a pasta do repositório de outra forma.
 
-Before building the ROM, you will also need to install agbcc, the compiler used for Rhythm Tengoku. Make sure you are still in your home directory, and run
+Antes de compilar a ROM, você também precisará instalar o agbcc, o compilador usado para o Rhythm Tengoku. Certifique-se de que ainda está no seu diretório home e execute
 
 `git clone https://github.com/pret/agbcc`
 
-After this, navigate to the agbcc directory with `cd ~/agbcc` and build the compiler by running `./build.sh`. Finally, install the compiler into the Rhythm Heaven Advance repository by running `./install.sh ~/rt`.
+Depois disso, navegue até o diretório agbcc com `cd ~/agbcc` e compile o compilador executando `./build.sh`. Por fim, instale o compilador no repositório Rhythm Heaven Advance executando `./install.sh ~/rt`.
 
-Lastly, you will need to acquire an unmodified rev0 Rhythm Tengoku ROM in order to build the project. This ROM is not provided, and you must source it yourself. Once you obtain this ROM, rename it to `baserom.gba` and place it in the `rt` directory.
+Por último, você precisará adquirir uma ROM Rhythm Tengoku rev0 não modificada para compilar o projeto. Essa ROM não é fornecida e você mesmo deve obtê-la. Depois de obter essa ROM, renomeie-a para `baserom.gba` e coloque-a no diretório `rt`.
 
 
-#### Building the ROM
+#### Compilando a ROM
 
-You are finally ready to build the repository! Navigate to the repository folder with `cd ~/rt`, and build the ROM by running `make -j`. (The `-j` parameter makes the build process able to run on multiple cores of your CPU, heavily speeding up the process.) Once the ROM has finished building, it will output a file at `build/rhythmheavenadvance.gba`! This is your compiled ROM.
+Você está finalmente pronto para compilar o repositório! Navegue até a pasta do repositório com `cd ~/rt` e compile a ROM executando `make -j`. (O parâmetro `-j` faz com que o processo de compilação possa ser executado em vários núcleos da sua CPU, acelerando bastante o processo.) Quando a ROM terminar de ser criada, ela gerará um arquivo em `build/rhythmheavenadvance.gba`! Essa é a sua ROM compilada.
 
-If you have any other questions or concerns, join the [RHModding discord server](https://discord.com/invite/ps4rq53)!
+Se você tiver outras dúvidas ou preocupações, entre no [servidor Discord do RHModding](https://discord.com/invite/ps4rq53)!
 
-## Credits (To Be Added)
+## Créditos Ritmo de Festa Advance
 
-#### this project wouldn't be possible without all the incredible people that came together to help out!
+Tradução e localização:
++ Nyoka
 
-Asset Assembly:
+Suporte à localização:
++ Itaific
+
+#### Créditos Rhythm Heaven Advance
+
+Montagem de ativos:
 + SkyeStage
 + Cash Banooka
 + geometricentric
@@ -99,16 +105,16 @@ Asset Assembly:
 + patataofcourse
 + Nate Candles
 
-Graphic Design:
+Design gráfico:
 + Tailx
 + vincells
 + Borists
 
-Main Programming:
+Programação principal:
 + Itaific
 + ShaffySwitcher
 
-Coding Contributions:
+Contribuições de codificação:
 + Deni_iguess
 + patataofcourse
 + Arthurtilly
@@ -117,14 +123,14 @@ Coding Contributions:
 + Conhlee
 + MissKnowledge
 
-Translation and Localization:
+Tradução e localização:
 + Mizuka Lover
 + ShaffySwitcher
 + somethingAccurate
 + patataofcourse
 + castle
 
-Localization Support:
+Suporte à localização:
 + Cash Banooka
 + SkyStage
 + RedRobocon
@@ -133,12 +139,12 @@ Localization Support:
 SFX:
 + Rhythm Heaven Megamix
 + Cherryberryfaygo
-+ Nabix and all of his family
++ Nabix e toda a sua família
 
-Bug Testing:
-Everyone on the Rhythm Heaven Advance discord!
-With special mention to nwqol
+Teste de bugs:
+Todos no Discord do Rhythm Heaven Advance!
+Com menção especial a nwqol
 
-Thank you all for your support!
+Obrigado a todos pelo apoio!
 
 Want to be here? Join our [Server!](https://discord.gg/8PET8w8PU8)
