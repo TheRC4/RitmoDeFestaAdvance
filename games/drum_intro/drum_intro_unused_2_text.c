@@ -7,59 +7,59 @@
 
 const char D_0805d8d8[] =
     "\n"
-    "With that, let's begin!";
+    "Com isso, bora comeˆ¹ar!";
 
 const char D_0805d8ec[] =
     "\n"
-    "Onto the next one!";
+    "Bora pro pr‡iximo!";
 
 const char D_0805d900[] =
     "\n"
-    "This part's in waltz time!";
+    "Essa parte ‡Q em ritmo de valsa!";
 
 const char D_0805d914[] =
     "\n"
-    "Now for the last one!";
+    "Agora bora pra ultima!";
 
 const char D_0805d928[] =
     "\n"
-    "And that's it!";
+    "E ‡Q isso!";
 
 const char D_0805d934[] =
-    "That was some good practice,\n"
-    "How'd you like it?\n"
-    "Keep it in the back of\n"
-    "your mind for later!";
+    "Essa foi uma boa pr‡ctica,\n"
+    "Vocˆ® gostou?\n"
+    "Guarda na sua cabeˆ¹a\n"
+    "pra depois!";
 
 const char D_0805d97c[] =
     "\n"
-    "I'll see you next time.\n"
-    "Untill then, bye!";
+    "Te vejo da pr‡ixima vez.\n"
+    "At‡Q l‡c, tchau!";
 
 const char D_0805d9a8[] =
     "\n"
-    "Oh, hi again.\n"
-    "I'm Samurai Drummer";
+    "Opa, oi denovo.\n"
+    "Eu sou o Baterista Samurai";
 
 const char D_0805d9c8[] =
-    "Well...\n"
-    "I believe that this is\n"
-    "the second time we've met.\n"
-    "Nice to see you again!";
+    "Bem...\n"
+    "Acredito que essa seja\n"
+    "a segunda vez que a gente se vˆ®.\n"
+    "Bom te ver denovo!";
 
 const char D_0805da00[] =
-    "The start is usually the most\n"
-    "important part in anything.\n"
-    "And I think the same thing\n"
-    "applies when playing music.";
+    "O ‡enicio ‡Q geralmente a parte\n"
+    "mais importante do que qualquer\n"
+    "coisa. E eu penso que isso tamb‡Qm\n"
+    "se aplica quando toca musica.";
 
 const char D_0805da5c[] =
-    "Alright, Lesson 2.\n"
-    "Let's practice the\n"
-    "\"start\" of the music.";
+    "Beleza, Liˆ¹ˆºo 2.\n"
+    "Bora praticar o \n"
+    "\"‡enicio\" da musica.";
 
 const char D_0805da84[] =
-    "Let me count for you.\n"
-    "When the song starts,\n"
-    "press ‡N and ‡L together\n"
-    "at the same time.";
+    "Deixa eu contar pra vocˆ®.\n"
+    "Quando a canˆ¹ˆºo comeˆ¹a,\n"
+    "aperte ‡N e ‡L juntos\n"
+    "ao mesmo tempo.";

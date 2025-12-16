@@ -7,73 +7,73 @@
 
 const char D_0805dcb8[] =
     "Boo!\n"
-    "Game over for you!\n"
-    "Looks like we win!";
+    "Fim de jogo pra vocˆ®\n"
+    "Parece que ganhamos!";
 
 const char D_0805dcf0[] = 
-    "Try taking us\n"
-    "on again, sometime!";
+    "Vamos fazer\n"
+    "uma revanche algum dia!";
 
 const char D_0805dd04[] =
-    "We lose!\n"
-    "You win!";
+    "Perdemos!\n"
+    "Vocˆ® ganhou!";
 
 const char D_0805dd28[] = 
-    "Come play with us\n"
-    "again, sometime!";
+    "Vem tocar com a gente\n"
+    "novamente algum dia!";
 
 const char D_0805dd40[] =
     "\n"
     "\n"
-    "Welcome!";
+    "Bem-vindo(a)!";
 
 const char D_0805dd50[] =
-    "We're Ponta and Monkey\n"
-    "The Samurai Drummer\n"
-    "introduced us here\n"
-    "to play with you.";
+    "N‡is somos Ponta e Monkey\n"
+    "O Baterista Samurai\n"
+    "nos trouxe aqui\n"
+    "para tocar com vocˆ®";
 
 const char D_0805dd90[] =
-    "We'll be giving out\n"
-    "the lessons this time!";
+    "N‡is que vamos dar\n"
+    "as liˆ¹ˆ¤es dessa vez!";
 
 const char D_0805ddb8[] =
-    "Now, without further ado,\n"
-    "let's start practice\n"
-    "by hitting ‡M.";
+    "Agora, sem enrolaˆ¹ˆºo,\n"
+    "bora comeˆ¹ar a pr‡ctica\n"
+    "apertando ‡M.";
 
 const char D_0805dde0[] =
-    "Listen closely,\n"
-    "then repeat the pattern!";
+    "Ouˆ¹a bem,\n"
+    "e depois repita o padrˆºo!";
 
 const char D_0805ddfc[] =
-    "This time, Ponta will join in.\n"
-    "Ponta's part can repeated\n"
-    "with Down on ‡O.";
+    "Dessa vez, o Ponta vai entrar.\n"
+    "A parte de Ponta pode ser repetida\n"
+    "com o Baixo no ‡O.";
 
 const char D_0805de40[] =
-    "Now for a fast part.\n"
-    "Alternating ‡M and Right on ‡O\n"
-    "will make it much easier.";
+    "Agora pra uma parte r‡cpida.\n"
+    "Alternando ‡M e Direita no ‡O\n"
+    "vai deixar tudo mais f‡ccil.";
 
 const char D_0805de88[] = 
-    "This is the last bit\n"
-    "of practice, as a heads up.";
+    "Essa ‡Q a ˆ¦ltima parte\n"
+    "da pr‡ctica, como um aviso pr‡Qvio.";
 
 const char D_0805dea0[] =
-    "Seem tough, doesn't it?\n"
-    "Good luck on the real thing!";
+    "Parece dificil, n‡Q?\n"
+    "Boa sorte na prova real!";
 
 const char D_0805dec0[] =
-    "Alright! Brace yourself,\n"
-    "it's time to start\n"
-    "our rhythm battle!";
+    "Beleza! Se prepara,\n"
+    "t‡c na hora de comeˆ¹ar\n"
+    "nossa batalha de ritmo!";
 
 const char D_0805def8[] =
-    "You have three chances\n"
-    "to beat us for each\n"
-    "pattern.";
+    "Vocˆ® tem trˆ®s chances\n"
+    "para nos vencer\n"
+    "a cada padrˆºo.";
 
 const char D_0805df28[] =
-    "How long can you\n"
-    "keep up with us?";
+    "Por quanto tempo vocˆ®\n"
+    "consegue nos acompanhar?";

@@ -6,56 +6,57 @@
 
 
 const char D_0805df4c[] =
-    "Welcome to the\n"
-    "funky world of\n"
-    "Rhythm Heaven Advance!";
+    "Bem-vindo(a)\n"
+    "ao mundo ritm‡eco de\n"
+    "Ritmo de Festa Advance!";
 
 const char D_0805df88[] =
-    "I hope you enjoy your time\n"
-    "with this game!";
+    "Espero que vocˆ® se divirta\n"
+    "com esse jogo!";
 
 const char D_0805dfcc[] =
     "\n"
-    "Well, see you later!";
+    "Bom, te vejo depois!";
 
 
 /* Game Text - Drumming Intro (Part 1) */
 
 
 const char D_0805e000[] =
-    "Everyone's got a\n"
-    "sense of rhythm in\n"
-    "some form or fashion.";
+    "Todo mundo tem um\n"
+    "senso de ritmo de\n"
+    "alguma forma.";
 
 const char D_0805e03c[] =
-    "And if you pay attention to it,\n"
-    "that sense of rhythm can\n"
-    "be sharpened like any skill.";
+    "E se vocˆ® prestar atenˆ¹ˆºo,\n"
+    "esse senso de ritmo pode\n"
+    "ser melhorado como qual-\n"
+    "quer outra habilidade.";
 
 const char D_0805e070[] =
-    "Why don't we take a\n"
-    "quick look at your\n"
-    "sense of rhythm?";
+    "Por que a gente nˆºo\n"
+    "d‡c uma olhada no\n"
+    "seu senso de ritmo?";
 
 
 /* Game Text - Drumming Intro (Part 2) */
 
 
 const char D_0805e0a8[] =
-    "How did you do? Did you get\n"
-    "a score you're happy with?\n"
+    "Como foi? Vocˆ® conseguiu uma\n"
+    "pontuaˆ¹ˆºo que te deixa orgulhoso(a)?\n"
     "";
 
 const char D_0805e0d8[] =
-    "Well, your sense of\n"
-    "rhythm can only grow\n"
-    "with some practice, so...";
+    "Bom, seu senso de\n"
+    "ritmo s‡i pode crescer\n"
+    "com um pouco de pr‡ctica, entˆºo...";
 
 const char D_0805e10c[] =
-    "...how about trying out\n"
-    "some Rhythm Games? You\n"
-    "might find it getting\n"
-    "sharper and sharper!";
+    "...que tal tentar\n"
+    "alguns Jogos R‡etmicos? Vocˆ®\n"
+    "provavelmente vai\n"
+    "melhorar e melhorar!";
 
 const char D_0805e15c[] =
-    "With that, I'll see you around!";
+    "Com isso, te vejo por a‡e!";

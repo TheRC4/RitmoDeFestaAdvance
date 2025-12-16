@@ -7,44 +7,44 @@
 
 const char D_0805d438[] =
     "\n"
-    "Oh, hi there.\n"
-    "I'm Samurai Drummer";
+    "Ah, e a‡e?\n"
+    "Eu sou o Baterista Samurai ";
 
 const char D_0805d458[] =
-    "Do you like drums?\n"
-    "I guess you don't hate them,\n"
-    "that's good at least\n"
-    "Want me to help you play?";
+    "Vocˆ® gosta de baterias?\n"
+    "Acho que vocˆ® nˆºo odeia,\n"
+    "isso ‡Q bom pelo menos\n"
+    "Quer que eu te ajude a jogar?";
 
 const char D_0805d4b4[] =
-    "Let me give you a lecture.\n"
-    "...Relax! Don't worry!\n"
-    "Just follow along,\n"
-    "it'll be a fun one!";
+    "Deixe eu te dar uma palestra.\n"
+    "...Relaxa! Fica de boa!\n"
+    "S‡i me segue,\n"
+    "vai ser divertido!";
 
 const char D_0805d508[] =
-    "First off, Lesson 1.\n"
-    "I'll play you a pattern,\n"
-    "and you copy after me.";
+    "Primeiro de tudo, Liˆ¹ˆºo 1.\n"
+    "Vou tocar um padrˆºo para vocˆ®\n"
+    "e vocˆ® me copia.";
 
 const char D_0805d554[] =
     "\n"
-    "Okay! Here we go!";
+    "Beleza! Aqui vai!";
 
 const char D_0805d568[] =
-    "Give it a shot\n"
-    "When you're ready!";
+    "Tente\n"
+    "Quando estiver pronto!";
 
 const char D_0805d57c[] =
-    "Alright, I'm kidding!\n"
-    "Sorry about that.";
+    "T‡c bom, s‡i tˆ¶ brincando.\n"
+    "Foi mal a‡e.";
 
 const char D_0805d5a4[] =
-    "I'll try to make sure\n"
-    "you'll have a good time\n"
-    "Just try your best.";
+    "Vou tentar garantir\n"
+    "que vocˆ® se divirta\n"
+    "S‡i tente seu melhor.";
 
 const char D_0805d5ec[] =
     "\n"
-    "See you the next lesson.\n"
-    "Goodbye!";
+    "Te vejo na pr‡ixima liˆ¹ˆºo\n"
+    "Falou!";
