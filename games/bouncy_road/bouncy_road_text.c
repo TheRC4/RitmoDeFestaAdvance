@@ -5,30 +5,30 @@
 /* Game Text - Bouncy Road */
 
 
-const char D_0805b778[] = "Gossip from the Wind";
+const char D_0805b778[] = "Fofocas do Vento";
 
-const char D_0805b784[] = "You need to focus on the basics.";
+const char D_0805b784[] = "Voce precisa focar no basico.";
 
 const char D_0805b7a0[] = "";
 
-const char D_0805b7a4[] = "The consecutive balls made you panic...";
+const char D_0805b7a4[] = "As bolas consecutivas deixaram voce em panico...";
 
-const char D_0805b7cc[] = "You handled all those spheres with ease!";
+const char D_0805b7cc[] = "Voce lidou com todas essas esferas com facilidade!";
 
-const char D_0805b7f8[] = "Your timing was on point!";
+const char D_0805b7f8[] = "Seu timing foi perfeito!";
 
-const char D_0805b810[] = "Gossip from the Wind";
+const char D_0805b810[] = "Fofocas do Vento";
 
-const char D_0805b820[] = "You need to focus on the basics.";
+const char D_0805b820[] = "Voce precisa focar no basico.";
 
 const char D_0805b83c[] = "";
 
-const char D_0805b840[] = "The consecutive balls made you panic...";
+const char D_0805b840[] = "As bolas consecutivas deixaram voce em panico...";
 
-const char D_0805b868[] = "You handled all those spheres with ease!";
+const char D_0805b868[] = "Voce lidou com todas essas esferas com facilidade!";
 
-const char D_0805b894[] = "Keep your cool, you timing was off. ";
+const char D_0805b894[] = "Mantenha a calma, seu timing estava ruim. ";
 
-const char D_0805b8b8[] = "Your timing was on point!";
+const char D_0805b8b8[] = "Seu timing estava no ponto!";
 
-const char D_0805b8d0[] = "Gossip from the Wind";
+const char D_0805b8d0[] = "Fofoca do Vento";
