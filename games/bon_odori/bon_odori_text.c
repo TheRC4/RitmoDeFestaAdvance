@@ -5,21 +5,21 @@
 /* Game Text - The Bon Odori */
 
 
-const char D_080676b4[] = "The first half was kinda rough...";
+const char D_080676b4[] = "A primeira parte foi um pouco difÌcil...";
 
-const char D_080676d4[] = "The first half was pretty good!";
+const char D_080676d4[] = "A primeira metade foi muito boa!";
 
-const char D_080676ec[] = "The second half was rather dreary.";
+const char D_080676ec[] = "A segunda metade foi bem seca.";
 
-const char D_08067710[] = "The second half was incredible!";
+const char D_08067710[] = "A segunda metade foi incrÌvel!";
 
 const char D_0806772c[] = "";
 
-const char D_08067730[] = "It really ramped up near the end!";
+const char D_08067730[] = "A emoÁ„o aumentou bastante no final!";
 
-const char D_08067754[] = "The ending was pitch perfect!";
+const char D_08067754[] = "O fim ficou no tom perfeito!";
 
-const char D_08067778[] = "The People Say:";
+const char D_08067778[] = "O Pessoal Diz:";
 
 const char text_bon_odori_ha[] = ".0:0" "ÇgÇÅÇÅÅ`";
 
