@@ -5,20 +5,20 @@
 /* Game Text - Karate Man 2 */
 
 
-const char D_0805b3a8[] = "You need to go over the basics again.";
+const char D_0805b3a8[] = "Vocˆ® precisa revisar os conceitos b‡csicos novamente.";
 
 const char D_0805b3c4[] = "";
 
-const char D_0805b3c8[] = "You were outpaced at the fast parts.";
+const char D_0805b3c8[] = "Vocˆ® foi ultrapassado nas partes r‡cpidas.";
 
-const char D_0805b3e8[] = "You were ahead of the fast parts!";
+const char D_0805b3e8[] = "Vocˆ® estava ‡g frente nas partes r‡cpidas!";
 
-const char D_0805b404[] = "The slow parts were simply chaotic.";
+const char D_0805b404[] = "As partes lentas eram simplesmente ca‡iticas.";
 
-const char D_0805b41c[] = "You kept your cool on the slow parts!";
+const char D_0805b41c[] = "Vocˆ® manteve a calma nas partes mais lentas!";
 
-const char D_0805b43c[] = "I'd hoped you wouldn't mess up the ending...";
+const char D_0805b43c[] = "Eu esperava que vocˆ® nˆºo estragasse o final...";
 
-const char D_0805b460[] = "Even the slowest parts were no problem!";
+const char D_0805b460[] = "Mesmo as partes mais lentas nˆºo foram problema!";
 
-const char D_0805b480[] = "The Master speaks...";
+const char D_0805b480[] = "O Mestre fala...";
